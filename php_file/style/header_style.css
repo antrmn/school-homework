@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    background-color: #252525;
+    color: white;
+  }
+  
+  .header {
+    padding: 20px;
+    text-align: center;
+    border-bottom: solid #838383;
+  }
+  
+  #header_link{
+    text-decoration: none;
+    color: #ffffff;   
+  }

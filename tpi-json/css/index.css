@@ -1,0 +1,28 @@
+body{
+	height: 100%;
+	text-align: center;
+}
+
+a{
+	text-align: center;
+	appearance: button;
+	text-decoration: none;
+	border: 2px solid black;
+	border-radius: 5px;
+	padding: 10px;
+	color: black;
+	display: inline-block;
+	margin-top: 15px;
+}
+
+#es2{
+	background-image: linear-gradient(to bottom right, red, orange);
+}
+
+#es3{
+	background-image: linear-gradient(to bottom right, #FC5C7D, #6A82FB);
+}
+
+#es4{
+	background-image: linear-gradient(to bottom right, #00b09b, #96c93d);
+}

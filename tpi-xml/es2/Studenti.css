@@ -1,0 +1,122 @@
+matricola:before
+{
+	content:"Studente n. ";
+	font-weight: normal;
+}
+
+matricola
+{
+	display: block;
+	padding: 2px 0px 2px 20px;
+	background-color: #686a6d;
+	font-weight: bold;
+	border-radius: 25px;
+	margin-bottom: 5px;
+	color: white;
+	font-size: 90%;
+}
+
+nome:before
+{
+	content:"Nome ";
+	padding-left:20px;
+	font-weight:normal;
+}
+
+nome
+{
+	display: block;
+	font-weight:bold;
+}
+
+cognome:before
+{
+	content:"Cognome ";
+	padding-left:20px;
+	font-weight:normal;
+}
+
+cognome
+{
+	display: block;
+	font-weight:bold;
+}
+
+dataDiNascita:before
+{
+	content:"Data di nascita ";
+	padding-left:20px;
+	font-weight:normal;
+}
+
+dataDiNascita
+{
+	display: block;
+	font-weight:bold;
+}
+
+luogoDiNascita:before
+{
+	content:"Luogo di nascita ";
+	padding-left:20px;
+	font-weight:normal;
+}
+
+luogoDiNascita
+{
+	display: block;
+	font-weight:bold;
+}
+
+residenza:before
+{
+	content:"Residenza ";
+	padding-left:20px;
+	font-weight:normal;
+}
+
+residenza
+{
+	display: block;
+	font-weight:bold;
+}
+
+sesso:before
+{
+	content: "Sesso ";
+	padding-left:20px;
+	font-weight:normal;
+}
+
+sesso
+{
+	display: block;
+	font-weight:bold;
+}
+
+studente
+{
+	border-style: solid;
+	border-width: 2px;
+	border-color: #dddddd;
+	margin: 2% 10% 3% 10%;
+	border-radius: 20px;
+	padding-bottom: 5px;
+	transition: background-color 0.3s ease-in-out;
+}
+
+studenti
+{
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	font-family: "courier new";
+}
+
+studente:hover
+{
+	background-color: #dddddd;
+}
+
+
+
+

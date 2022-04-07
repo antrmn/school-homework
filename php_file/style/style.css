@@ -1,0 +1,105 @@
+  .button{
+    padding: 6px 8px;
+    border: solid 2px #FCFCFC;
+    background: transparent;
+    color: #FCFCFC;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+
+  .column {
+    float: left;
+    width: 50%;
+    padding: 15px;
+  }
+  
+
+  .container{
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+  }
+
+
+  input[type="text"], input[type="number"], textarea{
+    outline: none;
+    border: 1px solid #cdcdcd;  
+    padding: 8px; 
+    background: transparent;
+    color:white;
+    border-radius: 5px;
+    -moz-appearance: textfield;
+  }
+
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button
+  {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  .binario_checkbox{
+    position: relative;
+    padding-left: 20px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+
+  .binario_checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  } 
+
+  .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  background: rgba(255, 255, 255, 0);  
+  border: solid 1px white;
+  border-radius: 3px;
+  }
+
+  .binario_checkbox:hover input ~ .checkmark {
+    background: rgba(255, 255, 255, 0.10); 
+  }
+
+
+  .binario_checkbox input:checked ~ .checkmark {
+  background-color: #929292;
+  }
+
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  .binario_checkbox input:checked ~ .checkmark:after {
+    display: block;
+  }
+
+  .binario_checkbox .checkmark:after {
+    left: 5px;
+    top: 2px;
+    width: 1px;
+    height: 5px;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  .errore{
+    color: red;
+  }
+
+  .messaggio{
+    font-weight: bold;
+  }

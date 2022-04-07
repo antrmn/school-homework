@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<ResourceLink name="jdbc/mydb"
+             global="jdbc/mydb"
+              type="javax.sql.DataSource" />
+		
+	<Resource url="jdbc:mysql://localhost:3306/immobili_db?serverTimezone=Europe/Rome" 
+			driverClassName="com.mysql.cj.jdbc.Driver"
+			password="1234"
+			username="root" 
+			maxIdle="30" 
+			type="javax.sql.DataSource" 
+			auth="Container" 
+			name="jdbc/immobili_db" />
+
+</Context>

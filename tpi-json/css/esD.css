@@ -1,0 +1,31 @@
+table tr td:nth-child(7), table tr th:nth-child(7){
+	font-weight: bold;
+}
+
+th, td {
+	padding: 10px;
+	}
+
+	table, td, th {    
+	border: 1px solid #dddddd;
+	}
+
+	table {
+	border-collapse: collapse;
+	margin-bottom: 10px;
+	background-color: rgba(245, 245, 245, 0.5);
+	width: 100%;
+	}
+
+	td:hover {
+	background-color:rgba(245, 245, 245, 0.6);
+	}
+
+	body{
+	font-family: "helvetica";
+	}
+
+body{
+	height: 100%;
+	background-image: linear-gradient(to bottom right, #00b09b, #96c93d);
+}

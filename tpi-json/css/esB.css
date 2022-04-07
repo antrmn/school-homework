@@ -1,0 +1,26 @@
+th, td {
+    		padding: 10px;
+			}
+
+			table, td, th {    
+    		border: 1px solid #dddddd;
+			}
+
+			table {
+    		border-collapse: collapse;
+			margin-bottom: 10px;
+			background-color: rgba(245, 245, 245, 0.5);
+			width: 100%;
+			}
+
+			td:hover {
+			background-color:rgba(245, 245, 245, 0.6);
+			}
+
+			body{
+			font-family: "helvetica";
+			}
+
+body{
+	background-image: linear-gradient(to bottom right, red, orange);
+}
